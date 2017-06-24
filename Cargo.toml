@@ -1,0 +1,19 @@
+[package]
+name = "qlue-sys"
+version = "0.1.0"
+authors = ["Stephane Raux <stephaneyfx@gmail.com>"]
+description = "Native bindings to QML using qlue"
+license = "MIT"
+homepage = "https://github.com/stephaneyfx/qlue-sys"
+repository = "https://github.com/stephaneyfx/qlue-sys.git"
+keywords = ["QML", "GUI"]
+links = "qlue"
+build = "build.rs"
+
+[dependencies]
+clue-sys = {path = "../clue-sys"}
+
+[build-dependencies]
+bindgen = "0.26.0"
+cmake = "0.1.24"
+git2 = {version = "0.6.6", path = "../other/git2-rs"}

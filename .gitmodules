@@ -1,0 +1,3 @@
+[submodule "qlue"]
+	path = qlue
+	url = https://github.com/stephaneyfx/qlue.git
